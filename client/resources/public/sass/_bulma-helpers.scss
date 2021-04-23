@@ -1,0 +1,33 @@
+@each $index, $value in $spacings {
+  .has-padding-#{$index}        { padding: $value }
+  .has-padding-top-#{$index}    { padding-top: $value }
+  .has-padding-right-#{$index}  { padding-right: $value }
+  .has-padding-bottom-#{$index} { padding-bottom: $value }
+  .has-padding-left-#{$index}   { padding-left: $value }
+
+  .has-margin-#{$index}         { margin: $value }
+  .has-margin-top-#{$index}     { margin-top: $value }
+  .has-margin-right-#{$index}   { margin-right: $value }
+  .has-margin-bottom-#{$index}  { margin-bottom: $value }
+  .has-margin-left-#{$index}    { margin-left: $value }
+}
+
+.has-margin-top-auto    { margin-top: auto; }
+.has-margin-right-auto  { margin-right: auto; }
+.has-margin-bottom-auto { margin-bottom: auto; }
+.has-margin-left-auto   { margin-left: auto; }
+
+.has-margin-top-zero    { margin-top: 0      !important; }
+.has-margin-right-zero  { margin-right: 0    !important; }
+.has-margin-bottom-zero { margin-bottom: 0   !important; }
+.has-margin-left-zero   { margin-left: 0     !important; }
+
+.has-padding-top-zero    { padding-top: 0    !important; }
+.has-padding-right-zero  { padding-right: 0  !important; }
+.has-padding-bottom-zero { padding-bottom: 0 !important; }
+.has-padding-left-zero   { padding-left: 0   !important; }
+
+.has-items-center {
+  display: flex !important;
+  align-items: center;
+}

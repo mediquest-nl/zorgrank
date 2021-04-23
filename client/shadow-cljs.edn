@@ -1,0 +1,13 @@
+{:lein true
+ :builds {:dev {:target :browser
+                :output-dir "resources/public/js/compiled"
+                :asset-path "/js/compiled"
+                :modules {:app {:entries [nl.mediquest.zorgrank-client.core]}}
+                :devtools {:http-root "resources/public"
+                           :http-port 3449
+                           :preloads [re-frisk.preload]
+                           :after-load nl.mediquest.zorgrank-client.core/mount-root}}
+          :prod {:target :browser
+                 :output-dir "resources/public/js/compiled"
+                 :asset-path "/js/compiled"
+                 :modules {:app {:entries [nl.mediquest.zorgrank-client.core]}}}}}

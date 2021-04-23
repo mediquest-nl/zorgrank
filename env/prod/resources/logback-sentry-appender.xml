@@ -1,0 +1,11 @@
+<appender name="SENTRY" class="io.sentry.logback.SentryAppender">
+  <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+    <layout class="nl.mediquest.logback.MaskingPatternLayout">
+      <pattern>%msg</pattern>
+      <useDefaultMediquestReplacements>true</useDefaultMediquestReplacements>
+    </layout>
+  </encoder>
+  <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+    <level>WARN</level>
+  </filter>
+</appender>

@@ -1,0 +1,5 @@
+{:prod true
+ :port 3000
+ :nrepl-port 7000
+ :clients-file "/secret/clients.edn"
+ :authentication-active? true}

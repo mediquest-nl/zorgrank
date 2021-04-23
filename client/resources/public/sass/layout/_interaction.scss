@@ -1,0 +1,12 @@
+.select {
+  width: 100%;
+
+  & select {
+    border-color: $grey-lighter;
+  }
+}
+
+.input.is-primary, .textarea.is-primary {
+  border-color: $grey-lighter;
+  margin: 5px 0;
+}

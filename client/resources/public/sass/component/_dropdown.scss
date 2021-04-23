@@ -1,0 +1,20 @@
+.dropdown {
+  &, .dropdown-trigger, .dropdown-menu, button {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  & .dropdown-item.is-search-selected {
+    background-color: $grey-lighter;
+    color: $black;
+  }
+
+  button {
+    justify-content: space-between;
+
+    span:first-child {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

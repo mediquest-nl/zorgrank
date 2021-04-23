@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+
+// Bulma styles
+@import "./node_modules/bulma/bulma.sass";
+@import "./node_modules/bulma-divider/src/sass/index.sass";
+@import "./node_modules/bulma-tooltip/src/sass/index.sass";
+@import "_bulma-helpers.scss";
+
+// Components
+@import "component/_range-slider.scss";
+@import "component/_specialist-card.scss";
+@import "component/_dropdown.scss";
+@import "component/_notifications.scss";
+
+// Layouyts
+@import "layout/_core.scss";
+@import "layout/_footer.scss";
+@import "layout/_header.scss";
+@import "layout/_interaction.scss";

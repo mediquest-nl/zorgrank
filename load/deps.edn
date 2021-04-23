@@ -1,0 +1,8 @@
+{:paths ["resources" "src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        org.clojure/core.async {:mvn/version "1.2.603"}
+        org.clojure/tools.logging {:mvn/version "1.1.0"}
+        clj-gatling {:mvn/version "0.14.0"} ; Load testing library for Clojure
+        http-kit {:mvn/version "2.4.0-alpha6"} ; HTTP server/client library
+        cheshire {:mvn/version "5.10.0"} ; JSON encoding/decoding
+        environ {:mvn/version "1.2.0"}}}

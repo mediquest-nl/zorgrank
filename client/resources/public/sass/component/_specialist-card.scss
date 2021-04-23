@@ -1,0 +1,26 @@
+.specialist-card {
+  $border-radius: 4px;
+
+  margin-bottom: 20px;
+  border-radius: $border-radius;
+
+  .card-header {
+    background-color: $primary !important;
+    border-radius: $border-radius $border-radius 0 0;
+
+    .card-header-title, .card-header-icon {
+      color: $white !important;
+    }
+  }
+
+  [data-tooltip]::before {
+    max-width: 100%;
+    text-overflow: unset;
+    white-space: break-spaces;
+    left: 25%;
+  }
+
+  [data-tooltip]::after {
+    left: 17%;
+  }
+}

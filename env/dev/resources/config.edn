@@ -1,0 +1,11 @@
+{:dev true
+ :port 3030
+ ;; when :nrepl-port is set the application starts the nREPL server on load
+ :nrepl-port 7000
+ :postgres-db-host "localhost:35432"
+ :postgres-db-user "mq_zorgrank_user"
+ :postgres-db-password "mq_zorgrank_password"
+ :postgres-db-database "mq_zorgrank"
+ ;; when :event-writer is not set events will be sent to the logger
+ :event-writer "event-db"
+ :authentication-active? false}

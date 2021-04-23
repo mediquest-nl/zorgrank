@@ -1,0 +1,10 @@
+{0 {:short "Niet"
+    :long "Niet gecontracteerd: Deze zorgaanbieder is niet gecontracteerd door uw verzekeraar. Dan kan de vergoeding uit uw verzekering lager zijn dan bij een gecontracteerde aanbieder. Informeer bij uw verzekeraar welke kosten worden vergoed."}
+ 1 {:short "In onderhandeling"
+    :long "In onderhandeling: De zorgverzekeraar en zorgaanbieder zijn nog in onderhandeling over het contract. Informeer bij uw verzekeraar of de kosten worden vergoed."}
+ 2 {:short "Gedeeltelijk"
+    :long "Deels gecontracteerd: Deze zorgaanbieder heeft voor een aantal behandelingen geen contract met de zorgverzekeraar. Informeer bij uw verzekeraar of de kosten volledig worden vergoed."}
+ 3 {:short "Volledig"
+    :long "Volledig gecontracteerd: Deze zorgaanbieder heeft een contract met uw zorgverzekeraar. De kosten worden volledig vergoed als u daar volgens uw polisvoorwaarden recht op heeft."}
+ 4 {:short "Onbekend"
+    :long "Contractering onbekend. Het is niet bekend of uw zorgverzekeraar een contract heeft met deze zorgaanbieder. Informeer bij uw verzekeraar welke kosten worden vergoed"}}

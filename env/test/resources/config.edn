@@ -1,0 +1,7 @@
+{:port 3030
+ :nrepl-port 7000
+ :postgres-db-host "localhost:35432"
+ :postgres-db-user "mq_zorgrank_user"
+ :postgres-db-password "mq_zorgrank_password"
+ :postgres-db-database "mq_zorgrank"
+ :authentication-active? false}
