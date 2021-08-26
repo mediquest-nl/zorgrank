@@ -1,7 +1,7 @@
 # ZorgRank
 
 This repository contains the code of [ZorgRank][1] which is part of the project 'Gepast Verwijzen'. 
-The project aims to help a general practitioner and patient to make a joint decisions about the most suitable follow-up care by ranking care providers with an
+The project aims to help a general practitioner and patient to make joint decisions about the most suitable follow-up care by ranking care providers with an
 arithmetic selection model we call ZorgRank. See [https://gepastverwijzen.nl/][2] for more information about the project. 
 
 This repository contains:
