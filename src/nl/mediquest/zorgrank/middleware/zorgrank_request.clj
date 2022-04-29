@@ -373,9 +373,9 @@
         (handler request)))))
 
 (def ^:private ref-sorting-keys
-  {"wachttijd"         {:id :wachttijd-toegangstijd-score :order util/lower-is-better}
-   "afstand"           {:id :reisafstand            :order util/lower-is-better}
-   "kwaliteit"         {:id :kwaliteit-norm         :order util/higher-is-better}})
+  {"wachttijd" {:id :wachttijd-toegangstijd-score :order util/lower-is-better}
+   "afstand" {:id :reisafstand :order util/lower-is-better}
+   "kwaliteit" {:id :mq-kwaliteit-score :order util/higher-is-better}})
 
 (defn- x-sort-voorkeuren
   [sorting-key]
